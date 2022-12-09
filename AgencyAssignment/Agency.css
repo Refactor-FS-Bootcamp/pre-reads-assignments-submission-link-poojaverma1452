@@ -1,0 +1,104 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container-section-image {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 259px;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: yellow 5px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px;
+}
+
+header .branding{
+    float: left;
+
+}
+
+header nav{
+    float: right;
+    margin-top: 22px;
+}
+
+#showcase{
+    min-height: 800px;
+    background-image: url(./images/dima-pechurin-qguUJmzGqyQ-unsplash.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 -5px;
+}
+
+#showcase h1{
+    margin-top: 1px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: royalblue;
+
+}
+
+#showcase p{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+.fa-brands{
+    font-size: 80px;
+    color: red;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    margin-top: 250px;
+}

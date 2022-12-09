@@ -1,0 +1,55 @@
+.headerStyle {
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: yellow 5px solid;
+}
+
+.bodyStyle {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    background-color: white;
+}
+.headerleft{
+    float: left;
+}
+.linkStyle {
+    float: right;
+    margin-top: 23px;
+}
+
+.headerStyle li{
+    display: inline;
+    padding: 0 20px;
+}
+
+.headerStyle a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.paragraphLeft {
+    float: left;
+    width: 50%;
+}
+.paragraphRight {
+    float: right;
+    width: 40%;
+}
+
+.bodyDiv {
+    position: relative;
+    height: 510px;
+}
+
+.footerStyle {
+    text-align: center;
+    background: orange;
+    height: 65px;
+    padding-top: 1px;
+}
